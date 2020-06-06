@@ -1,4 +1,4 @@
-// ласс с фрагментом
+//Класс с фрагментом
 
 package com.example.myapplication_2020_24.thirdpage;
 
