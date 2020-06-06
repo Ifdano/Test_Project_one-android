@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:layout_gravity = "center"
+    android:gravity = "center"
+    android:padding = "@dimen/_10sdp">
+    
+    <Button
+        android:id = "@+id/buttonGotPictureRandom"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonGotPictureRandom"
+        android:textSize = "@dimen/_15ssp"
+        android:textStyle = "bold"
+        android:padding = "@dimen/_15sdp"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:background = "#82c0cc"
+        android:textColor = "#0c0f0a"/>
+    
+    <Button
+        android:id = "@+id/buttonBack"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonBack"
+        android:textSize = "@dimen/_15ssp"
+        android:textStyle = "bold"
+        android:padding = "@dimen/_15sdp"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:background = "#84a98c"
+        android:textColor = "#0c0f0a"
+        android:layout_marginTop = "@dimen/_15sdp"/>
+    
+</LinearLayout>

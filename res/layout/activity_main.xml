@@ -1,0 +1,54 @@
+<!-- главное окно -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:gravity = "center"
+    android:background = "#1d3557"
+    android:padding = "@dimen/_20sdp">
+    
+    <!-- кнопка перехода на окно с генерацией случайных картинок -->
+    <Button
+        android:id = "@+id/buttonGotPicture"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonGotPicture"
+        android:textSize = "@dimen/_20ssp"
+        android:textStyle = "bold"
+        android:padding = "@dimen/_15sdp"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:background = "#e9c46a"
+        android:textColor = "#0c0f0a"/>
+    
+    <!-- кнопка перехода на окно с цветами RGB -->
+    <Button
+        android:id = "@+id/buttonGotColor"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonGotColor"
+        android:textSize = "@dimen/_20ssp"
+        android:textStyle = "bold"
+        android:padding = "@dimen/_15sdp"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:background = "#95d5b2"
+        android:textColor = "#0c0f0a"
+        android:layout_marginTop = "@dimen/_15sdp"/>
+    
+    <!-- кнопка перехода на окно с падающими кубиками -->
+    <Button
+        android:id = "@+id/buttonGotTime"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonGotTime"
+        android:textSize = "@dimen/_20ssp"
+        android:textStyle = "bold"
+        android:padding = "@dimen/_15sdp"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:background = "#f0a6ca"
+        android:textColor = "#0c0f0a"
+        android:layout_marginTop = "@dimen/_15sdp"/>
+
+</LinearLayout>

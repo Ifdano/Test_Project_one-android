@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "app_name">MyApllication_2020_24</string>
+    
+    <string name = "buttonGotPicture"> Get picture </string>
+    <string name = "buttonGotColor"> Get color </string>
+    <string name = "buttonGotTime"> Get time control</string>
+    
+    <string name = "buttonGotPictureRandom"> Get random number </string>
+    
+    <string name = "buttonBack"> Back to menu </string>
+    <string name = "buttonGenerate"> Generate </string>
+
+</resources>

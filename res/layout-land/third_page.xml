@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "horizontal"
+    android:padding = "@dimen/_10sdp"
+    android:background = "#1d3557">
+    
+    <com.example.myapplication_2020_24.thirdpage.GamePanel
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:id = "@+id/gamePanel"
+        android:layout_weight = "2"
+        />
+    
+    <fragment
+        android:name = "com.example.myapplication_2020_24.thirdpage.ThirdPageFirstFragment"
+        android:layout_width = "0dp"
+        android:layout_height = "match_parent"
+        android:layout_weight = "1"
+        android:id = "@+id/firstFragment"
+        tools:layout = "@layout/thirdpage_first_fragment"/>
+    
+</LinearLayout>

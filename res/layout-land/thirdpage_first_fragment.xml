@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    android:padding = "@dimen/_10sdp">
+    
+    <SeekBar
+        android:id = "@+id/seekTime"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:max = "3000"
+        android:layout_gravity = "center"
+        android:gravity = "center"/>
+    
+    <Button
+        android:id = "@+id/buttonBack"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonBack"
+        android:textSize = "@dimen/_15ssp"
+        android:textStyle = "bold"
+        android:layout_gravity = "end"
+        android:textColor = "#0c0f0a"
+        android:background = "#84a98c"
+        android:padding = "@dimen/_10sdp"
+        android:layout_marginTop = "@dimen/_10sdp"/>
+    
+    <Button
+        android:id = "@+id/buttonGenerate"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/buttonGenerate"
+        android:textSize = "@dimen/_15ssp"
+        android:textStyle = "bold"
+        android:layout_gravity = "end"
+        android:textColor = "#0c0f0a"
+        android:background = "#f4a261"
+        android:padding = "@dimen/_10sdp"
+        android:layout_marginTop = "@dimen/_10sdp"/>
+    
+</LinearLayout>

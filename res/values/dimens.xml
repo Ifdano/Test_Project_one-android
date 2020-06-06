@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <dimen name = "paddingLayout"> 20dp </dimen>
+    <dimen name = "paddingLayoutLow"> 10dp </dimen>
+    <dimen name = "paddingButton"> 15dp </dimen>
+   
+    <dimen name = "buttonTextSize"> 30sp </dimen>
+    <dimen name = "buttonTextSizeLow"> 15sp </dimen>
+    
+    <dimen name = "margin"> 15dp </dimen>
+    
+    <dimen name="layoutRectSize"> 50dp </dimen>
+</resources>

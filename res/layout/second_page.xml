@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- первое окно: окно с цветами RGB -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    android:padding = "@dimen/_10sdp"
+    android:background = "#1d3557">
+    
+    <LinearLayout 
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "vertical"
+        android:background = "#f1faee"
+        android:padding = "@dimen/_10sdp">
+        
+        <!-- фрагмент с самими цветами -->
+        <fragment
+            android:name = "com.example.myapplication_2020_24.secondpage.SecondPageFirstFragment"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/firstFragment"
+            tools:layout = "@layout/secondpage_first_fragment"/>
+        
+        <!-- фрагмент с ползунками и кнопками -->
+        <fragment
+            android:name = "com.example.myapplication_2020_24.secondpage.SecondPageSecondFragment"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/secondFragment"
+            tools:layout = "@layout/secondpage_second_fragment"/>
+        
+    </LinearLayout>    
+    
+</LinearLayout>
