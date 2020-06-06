@@ -1,4 +1,4 @@
-//Окно с падающими квадратами
+//Окно с падающими кубиками
 
 package com.example.myapplication_2020_24.thirdpage;
 
