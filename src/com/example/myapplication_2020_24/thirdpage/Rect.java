@@ -1,4 +1,4 @@
-// ласс дл¤ создани¤ квадратов
+//Класс дл¤ создания кубиков
 
 package com.example.myapplication_2020_24.thirdpage;
 
@@ -15,10 +15,10 @@ public class Rect {
 	private int green;
 	private int blue;
 	
-	//достиг дна и остановилс¤
+	//достиг дна и остановился
 	private boolean down;
 	
-	//сеттеры дл¤ установки значений
+	//сеттеры для установки значений
 	public void setX(int x){ this.x = x; }
 	public void setY(int y){ this.y = y; }
 	
@@ -33,7 +33,7 @@ public class Rect {
 		this.blue = blue;
 	}
 	
-	//геттеры дл¤ получени¤ значений
+	//геттеры для получени¤ значений
 	public int getX(){ return x; }
 	public int getY(){ return y; }
 	
