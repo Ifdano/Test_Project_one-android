@@ -8,12 +8,16 @@
 ## Screenshots:
 
 ### landscape
+![tedt_project_main_hor'](https://user-images.githubusercontent.com/15383481/83967090-8584f000-a8cf-11ea-89db-442de3dbd353.jpg)
+![tedt_project_image_hor'](https://user-images.githubusercontent.com/15383481/83967092-89187700-a8cf-11ea-9d13-2a9c9f182d49.jpg)
+![tedt_project_color_hor'](https://user-images.githubusercontent.com/15383481/83967098-8ddd2b00-a8cf-11ea-8b9f-92cd92bd9cad.jpg)
+![tedt_project_time_hor'](https://user-images.githubusercontent.com/15383481/83967099-90d81b80-a8cf-11ea-94d3-8d8ea34ef13a.jpg)
 
 ### portrait
-https://user-images.githubusercontent.com/15383481/83966951-9719c800-a8ce-11ea-947a-7e0c5302282d.jpg
-https://user-images.githubusercontent.com/15383481/83966955-9d0fa900-a8ce-11ea-8981-f818a495ab41.jpg
-https://user-images.githubusercontent.com/15383481/83966958-a1d45d00-a8ce-11ea-9cc8-35fb260c884a.jpg
-https://user-images.githubusercontent.com/15383481/83966962-a7ca3e00-a8ce-11ea-8f20-deae8b679c56.jpg
+![tedt_project_main_ver'](https://user-images.githubusercontent.com/15383481/83967047-376fec80-a8cf-11ea-90c3-5bc57d89061a.jpg)
+![tedt_project_image_ver'](https://user-images.githubusercontent.com/15383481/83967048-3c34a080-a8cf-11ea-8bfc-ed4cb812b26a.jpg)
+![tedt_project_color_ver'](https://user-images.githubusercontent.com/15383481/83967050-4060be00-a8cf-11ea-8181-37f9e1ab272b.jpg)
+![tedt_project_time_ver'](https://user-images.githubusercontent.com/15383481/83967056-45be0880-a8cf-11ea-88fc-491156a18a0d.jpg)
 
 ### Примечание:
 
