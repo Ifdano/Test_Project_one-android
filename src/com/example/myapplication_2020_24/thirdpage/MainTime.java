@@ -110,7 +110,7 @@ public class MainTime extends FragmentActivity implements OnTouchListener, OnSee
 				seekProgress = progress;
 			}
 			
-			//если изменяем положение ползунка влева
+			//если изменяем положение ползунка влево
 			if(progress < seekProgress){
 				/*
 				 * останавливаем автоматическое обновление и 
@@ -133,7 +133,7 @@ public class MainTime extends FragmentActivity implements OnTouchListener, OnSee
 		}
 	}
 	
-	//как только отпусти ползунок
+	//как только отпустили ползунок
 	public void onStopTrackingTouch(SeekBar seekbar){
 		/*
 		 * запускаем автоматическое обновление,
