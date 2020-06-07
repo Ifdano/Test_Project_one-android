@@ -1,5 +1,5 @@
 /*
- * Класс окна c получением цветов RGB.
+ * Класс окна c комбинированием цветов RGB.
  * Состояние автоматически сохраняется с помощью SharedPreferences
  */
 
@@ -135,7 +135,7 @@ public class MainColor extends FragmentActivity implements OnTouchListener, OnSe
 		colorMain.setBackgroundColor(Color.parseColor("#" + finalColor));
 	}
 	
-	//сохраняем данных
+	//сохранение данных
 	protected void onPause(){
 		super.onPause();
 		
@@ -154,7 +154,7 @@ public class MainColor extends FragmentActivity implements OnTouchListener, OnSe
 		editor.apply();
 	}
 	
-	//сохраняем данных
+	//сохранение данных
 	protected void onStop(){
 		super.onStop();
 		
@@ -229,7 +229,7 @@ public class MainColor extends FragmentActivity implements OnTouchListener, OnSe
 		//изменения первого ползунка
 		if(seekbar == seekRed){
 			/*
-			 * получаем состояние ползунк и переводим
+			 * получаем состояние ползунка и переводим
 			 * полученное значение в 16-ю систему счисления
 			 */
 			redSeekBarProgress = getHeximal(progress);
@@ -279,7 +279,7 @@ public class MainColor extends FragmentActivity implements OnTouchListener, OnSe
 	
 	public void onStopTrackingTouch(SeekBar seekbar){}
 	
-	//перевод числа в 16-ю систему счисления
+	//перевод числа в 16-ю систему счисления 
 	public static String getHeximal(int numberN){
 		String temp;
 		String[] digits = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"};
