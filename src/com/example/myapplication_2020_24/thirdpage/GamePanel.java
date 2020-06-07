@@ -31,7 +31,7 @@ public class GamePanel extends View implements Runnable{
 	private int canvasWidth;
 	private int canvasHeight;
 	
-	//хранение квадратов
+	//хранение кубиков
 	private ArrayList<Rect> rects;
 	
 	//падение текущего кубика
@@ -174,7 +174,7 @@ public class GamePanel extends View implements Runnable{
 		
 		/*
 		 * подстраиваем скорость и размер кубиков
-		 * под различные разрешения экранов
+		 * под различные разрешения/плотности экранов
 		*/
 		setRectSizeSpeed();
 		
@@ -232,7 +232,7 @@ public class GamePanel extends View implements Runnable{
 		if(step < 0)
 			step = 0;
 		
-		//если разрешена автоматическое падение кубиков
+		//если разрешено автоматическое падение кубиков
 		if(updateStart)
 			if(rects.size() > 0 && step < rects.size()){
 			
@@ -247,7 +247,7 @@ public class GamePanel extends View implements Runnable{
 				boolean down = rect.isDown();
 			
 				/*
-				 * проверяем, не упал ли наш кубик на другой кубик, и не лостиг ли 
+				 * проверяем, не упал ли наш кубик на другой кубик, и не достиг ли 
 				 * он нижней границы холста
 				 */
 				if(!down && y + size < canvasHeight){
@@ -280,7 +280,7 @@ public class GamePanel extends View implements Runnable{
 						}
 					
 						/*
-						 * пока наш кубик не столкнулся с другим,
+						 * пока наш кубик не столкнулся с другими кубиками,
 						 * он продолжает падать
 						 */
 						if(!rectCrush){
@@ -288,7 +288,7 @@ public class GamePanel extends View implements Runnable{
 							rect.setY(y);
 						}else{
 							/*
-							 * если же наш текущий куби упал на другой,
+							 * если же наш текущий кубик упал на другой,
 							 * то останавливаем его и берем следующий падающий кубик 
 							 */
 							rect.setDown(true);
@@ -373,7 +373,7 @@ public class GamePanel extends View implements Runnable{
 		
 	}
 	
-	//русное обновление для поднятия кубиков
+	//ручное обновление для поднятия кубиков
 	public void setUpdateBackStep(int move){
 		/*
 		 * может случиться так, что при падении
